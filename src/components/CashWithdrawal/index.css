@@ -1,0 +1,79 @@
+.forOuterDiv {
+  background-color: #d4d2db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.forInner {
+  background-color: #150b3e;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  width: 400px;
+}
+.forPara {
+  background-color: #c7d2fe;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 80px;
+  color: #7c3aed;
+  margin-right: 7px;
+}
+.forHeader {
+  color: #c4c4c4;
+  font-size: 20px;
+  font-family: 'Roboto';
+  align-self: center;
+}
+.forInnerInner {
+  display: flex;
+  justify-content: space-between;
+}
+.forInnerInner1 {
+  display: flex;
+}
+.Balance {
+  color: #382f5a;
+  font-weight: bold;
+  font-size: 22px;
+}
+.InRupees {
+  color: #382f5a;
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.forHeaderRupees {
+  color: #c4c4c4;
+  font-size: 30px;
+  font-weight: 600;
+
+  margin-bottom: 0px;
+}
+.Withdraw {
+  color: #c4c4c4;
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-size: 30px;
+}
+.sum {
+  color: #382f5a;
+  font-weight: 600;
+}
+.forButton {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 7px;
+  margin-bottom: 50px;
+}
+@media and screen (max-width: 767px) {
+  .forInner {
+    width: 80vw;
+  }
+}
