@@ -18,23 +18,23 @@ class CashWithdrawal extends Component {
     const {denominationsList} = this.props
 
     return (
-      <div className="forOuterDiv">
-        <div className="forInner">
-          <div className="forInnerInner1">
-            <p className="forPara">s</p>
-            <h1 className="forHeader">Sarah Williams</h1>
+      <div className="for-outer-div">
+        <div className="for-inner">
+          <div className="for-inner-inner1">
+            <p className="for-para">s</p>
+            <h1 className="for-header">Sarah Williams</h1>
           </div>
-          <div className="forInnerInner">
+          <div className="for-inner-inner">
             <p className="Balance">Your Balance</p>
 
-            <div className="forIn">
-              <p className="forHeaderRupees">{intValue}</p>
-              <p className="InRupees">In Rupees</p>
+            <div className="for-in">
+              <p className="for-header-rupees">{intValue}</p>
+              <p className="In-rupees">In Rupees</p>
             </div>
           </div>
           <p className="Withdraw">Withdraw</p>
           <p className="sum">CHOOSE SUM (IN RUPEES) </p>
-          <ul className="forButton">
+          <ul className="for-button">
             {denominationsList.map(every => (
               <DenominationItem
                 listDenominations={every}

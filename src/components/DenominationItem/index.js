@@ -9,8 +9,12 @@ const DenominationItem = props => {
   }
 
   return (
-    <li className="forButton" key={id}>
-      <button className="forButtonInner" type="button" onClick={buttonClicked}>
+    <li className="for-button" key={id}>
+      <button
+        className="for-button-inner"
+        type="button"
+        onClick={buttonClicked}
+      >
         {value}
       </button>
     </li>

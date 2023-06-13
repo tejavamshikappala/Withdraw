@@ -1,9 +1,9 @@
-.forButton {
+.for-button {
   margin: 5px;
 
   list-style-type: none;
 }
-.forButtonInner {
+.for-button-inner {
   background-color: #585076;
   border-radius: 4px;
   border-width: 2px;

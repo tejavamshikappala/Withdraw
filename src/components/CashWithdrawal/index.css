@@ -1,11 +1,11 @@
-.forOuterDiv {
+.for-outer-div {
   background-color: #d4d2db;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
-.forInner {
+.for-inner {
   background-color: #150b3e;
   border-radius: 10px;
   padding: 20px;
@@ -14,7 +14,7 @@
   font-family: 'Roboto';
   width: 400px;
 }
-.forPara {
+.for-para {
   background-color: #c7d2fe;
   padding-left: 20px;
   padding-right: 20px;
@@ -24,17 +24,17 @@
   color: #7c3aed;
   margin-right: 7px;
 }
-.forHeader {
+.for-header {
   color: #c4c4c4;
   font-size: 20px;
   font-family: 'Roboto';
   align-self: center;
 }
-.forInnerInner {
+.for-inner-inner {
   display: flex;
   justify-content: space-between;
 }
-.forInnerInner1 {
+.for-inner-inner1 {
   display: flex;
 }
 .Balance {
@@ -42,13 +42,13 @@
   font-weight: bold;
   font-size: 22px;
 }
-.InRupees {
+.In-rupees {
   color: #382f5a;
   font-weight: 600;
   margin-top: 10px;
   font-size: 16px;
 }
-.forHeaderRupees {
+.for-header-rupees {
   color: #c4c4c4;
   font-size: 30px;
   font-weight: 600;
@@ -65,7 +65,7 @@
   color: #382f5a;
   font-weight: 600;
 }
-.forButton {
+.for-button {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -73,7 +73,7 @@
   margin-bottom: 50px;
 }
 @media and screen (max-width: 767px) {
-  .forInner {
+  .for-inner {
     width: 80vw;
   }
 }
